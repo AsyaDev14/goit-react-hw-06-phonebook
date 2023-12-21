@@ -1,7 +1,7 @@
 import React from "react";
 import css from './Filter.module.css'
 import { useSelector, useDispatch} from "react-redux";
-import { updateFilter } from "../../redux/store";
+import { updateFilter } from "../../redux/slice";
 
 export const Filter = () => {
   // const { filter, handleFilterChange } = props;
